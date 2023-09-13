@@ -12,9 +12,9 @@
         background-color: #333;
       }
       header img {
-      height: 200px;
-      width: 100%;
-    }
+        height: 200px;
+        width: 100%;
+      }
     
       nav li {
         float: left;
@@ -33,7 +33,7 @@
       }
       
       h1 {text-align: center;
-    background-color: #c4bdbd;
+        background-color: #c4bdbd;
       }
 
       h2 {text-align: center;}
@@ -59,7 +59,7 @@
   <body>
     <!-- Navigation bar -->
     <nav>
-      <ul>
+      <ul> 
         <li><a href="index.html">Home</a></li>
         <li><a href="https://www.allrecipes.com/recipes/">Recipes</a></li>
         <li><a href="about.html">About</a></li>
@@ -76,81 +76,84 @@
       </blockquote>
     </header>
 
-    <!-- Main section with table and list -->
+    <main> <!-- Opening main tag -->
 
-</main>
-    <h1>Welcome to James' Cooking website</h1>
-    <p>This website is all about cooking and sharing my favorite recipes with you. Check out some of my latest creations below.</p>
-  
-    <div class="table-images">
-        <div style="float: left;">
-          <img src="https://assets.bonappetit.com/photos/5ea8f0df16738800085ad5d2/1:1/w_2560%2Cc_limit/Chicken-Parmesean-Recipe-Lede.jpg" alt="Image 1" style="width: 350px; height: 350px">
-        </div>
-        <div style="float: right;">
-          <img src="https://sallysbakingaddiction.com/wp-content/uploads/2013/04/triple-chocolate-cake-4.jpg" alt="Image 2" style="width: 350px; height: 350px">
-        </div>
-        <table style="margin: 0 auto;">
-          <caption>Recipe List:</caption>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Category</th>
-              <th>Difficulty</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Spaghetti Carbonara</td>
-              <td>Pasta</td>
-              <td>Medium</td>
-            </tr>
-            <tr>
-              <td>Chicken Parmesan</td>
-              <td>Meat</td>
-              <td>Easy</td>
-            </tr>
-            <tr>
-              <td>Chocolate Cake</td>
-              <td>Dessert</td>
-              <td>Hard</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+        <h1>Welcome to James' Cooking website</h1>
+        <p>This website is all about cooking and sharing my favorite recipes with you. Check out some of my latest creations below.</p>
       
-     <h2 style="text-align:center;">Latest Recipes</h2>
-<div style="text-align:center;">
-  <ul style="list-style-type:none; display:inline-block;">
-    <li><a href="https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe">Spaghetti Carbonara</a></li>
-    <li><a href="https://www.bbcgoodfood.com/recipes/chicken-parmigiana">Chicken Parmesan</a></li>
-    <li><a href="https://cafedelites.com/chocolate-cake/">Chocolate Cake</a></li>
-  </ul>
-</div>
+        <div class="table-images">
+            <div style="float: left;">
+              <img src="https://assets.bonappetit.com/photos/5ea8f0df16738800085ad5d2/1:1/w_2560%2Cc_limit/Chicken-Parmesean-Recipe-Lede.jpg" alt="Image 1" style="width: 350px; height: 350px">
+            </div>
+            <div style="float: right;">
+              <img src="https://sallysbakingaddiction.com/wp-content/uploads/2013/04/triple-chocolate-cake-4.jpg" alt="Image 2" style="width: 350px; height: 350px">
+            </div>
+            <table>
+              <caption>Recipe List:</caption>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Category</th>
+                  <th>Difficulty</th> 
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Spaghetti Carbonara</td>
+                  <td>Pasta</td>
+                  <td>Medium</td>
+                </tr>
+                <tr>
+                  <td>Chicken Parmesan</td>
+                  <td>Meat</td>
+                  <td>Easy</td>
+                </tr>
+                <tr>
+                  <td>Chocolate Cake</td>
+                  <td>Dessert</td>
+                  <td>Hard</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        
+        <h2 style="text-align:center;">Latest Recipes</h2>
+        <div style="text-align:center;">
+            <ul style="list-style-type:none; display:inline-block;">
+                <li><a href="https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe">Spaghetti Carbonara</a></li>
+                <li><a href="https://www.bbcgoodfood.com/recipes/chicken-parmigiana">Chicken Parmesan</a></li>
+                <li><a href="https://cafedelites.com/chocolate-cake/">Chocolate Cake</a></li>
+            </ul>
+        </div>
 
-    </main>
+    </main> <!-- Closing main tag -->
 
     <div style="background-color: #f2f2f2; padding: 10px; text-align: center;">
         <form style="display: inline-block;">
-          <h3>Select your preferred cuisine:</h3>
-          <label for="Spaghetti Carbonara"><input type="radio" id="Spaghetti Carbonara" name="cuisine" value="Spaghetti Carbonara">Spaghetti Carbonara</label>
-          <label for="Chicken Parmesan"><input type="radio" id="Chicken Parmesan" name="cuisine" value="Chicken Parmesan">Chicken Parmesan</label>
-          <label for="Chocolate Cake"><input type="radio" id="Chocolate Cake" name="cuisine" value="Chocolate Cake">Chocolate Cake</label>
-          <br>
-          <input type="submit" value="Submit">
+            <h3>Select your preferred cuisine:</h3>
+            <label for="Spaghetti Carbonara"><input type="radio" id="Spaghetti Carbonara" name="cuisine" value="Spaghetti Carbonara">Spaghetti Carbonara</label>
+            <label for="Chicken Parmesan"><input type="radio" id="Chicken Parmesan" name="cuisine" value="Chicken Parmesan">Chicken Parmesan</label>
+            <label for="Chocolate Cake"><input type="radio" id="Chocolate Cake" name="cuisine" value="Chocolate Cake">Chocolate Cake</label>
+            <br>
+            <input type="submit" value="Submit">
         </form>
-      </div>      
+    </div>
 
     <!-- Sidebar section with image and form -->
     <aside>
-        <img src="https://www.freewebheaders.com/wp-content/gallery/food/various-spices-and-herbs-website-header.jpg" alt="Sidebar image" class="center" style=" max-width: 100%">
+        <img src="https://www.freewebheaders.com/wp-content/gallery/food/various-spices-and-herbs-website-header.jpg" alt="Sidebar image" class="center" style="max-width: 100%">
         <div class="block">
             <div style="background-color: #f2f2f2; padding: 10px;">
                 <h4>Subscribe to our newsletter</h4>
                 <form>
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" required>
-                  <br>
-                  <input type="submit" value="Subscribe">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <input type="submit" value="Subscribe">
                 </form>
-              </div>
-              
+            </div>
+        </div>
+    </aside>
+
+  </body>
+</html>
